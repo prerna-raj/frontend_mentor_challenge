@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1440px;
+  
+}
+.container {
+  background-color: hsl(30, 38%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 72vw;
+  height: 89vh;
+  margin: 10vh auto;
+}
+.left img {
+  width: 16vw;
+  height: 50vh;
+  object-fit: contain;
+  border-radius: 10px 0px 0px 10px;
+}
+.right {
+  background: #ffffff;
+  width: 16vw;
+  height: 50vh;
+  border-radius: 0px 10px 10px 0px;
+  /* font-family: 'Fraunces', serif; */
+  padding: 0px 12px;
+}
+.span_1 {
+  color: hsl(158, 36%, 37%);
+  font-weight: 700;
+  padding: 12px;
+  font-family: "Fraunces", serif;
+  font-size: 23px;
+}
+.right p {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 5px;
+  padding: 12px;
+  font-size: 9px;
+  font-weight: 700;
+  color: hsl(228, 12%, 48%);
+  background-color: hsl(0, 0%, 100%);
+}
+.container .heading {
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  padding: 0px 12px;
+  font-size: 1.5rem;
+  line-height: 27px;
+}
+.container .des {
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  padding: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+}
+strike {
+  color: hsl(228, 12%, 48%);
+  font-size: 11px;
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  font-family: "Montserrat", sans-serif;
+}
+button {
+    border: 1px solid hsl(158, 36%, 37%);
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 5px;
+    padding: 6px 12px;
+    margin: 23px 13px;
+    width: 175px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    word-spacing: 2px;
+}
+button:hover {
+  background-color: hsl(156.32deg 42.22% 17.65%);
+}
+button img{
+  padding: 0px 10px 0 0;
+}
+
+@media screen and (max-width:375px) {
+
+  .container{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left img{
+    width: 325px;
+    height: 243px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
+  .right{
+    width: 325px;
+    height: 306px;
+    position: relative;
+    top: -3px;
+    border-radius: 0 0 8px 8px;
+  }
+  .right p{
+    font-size: 11px;
+  }
+  .container .heading{
+    font-size: 1.9rem;
+  }
+  .container .des{
+    font-size: 14px;
+    word-spacing: 1px;
+    line-height: 22px;
+  }
+  .span_1{
+    font-size: 32px;
+  }
+  strike{
+    font-size: 14px;
+    position: absolute;
+    top: 71%;
+    left: 53%;
+  }
+  button{
+    padding: 13px 12px;
+    margin: 6px auto;
+    width: 288px;
+    border-radius: 6px;
+    font-weight: 600;
+    word-spacing: 2px;
+  }
+  button img{
+    padding: 0px 10px 0 0;
+}
+}
+
+@media screen and (max-width:1200PX){
+  .container{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left img{
+    width: 325px;
+    height: 243px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
+  .right{
+    width: 325px;
+    height: 306px;
+    position: relative;
+    top: -3px;
+    border-radius: 0 0 8px 8px;
+  }
+  .right p{
+    font-size: 11px;
+  }
+  .container .heading{
+    font-size: 1.9rem;
+  }
+  .container .des{
+    font-size: 14px;
+    word-spacing: 1px;
+    line-height: 22px;
+  }
+  .span_1{
+    font-size: 32px;
+  }
+  strike{
+    font-size: 14px;
+    position: absolute;
+    top: 71%;
+    left: 53%;
+  }
+  button{
+    padding: 13px 12px;
+    margin: 6px auto;
+    width: 288px;
+    border-radius: 6px;
+    font-weight: 600;
+    word-spacing: 2px;
+  }
+  button img{
+    padding: 0px 10px 0 0;
+}
+
+}
